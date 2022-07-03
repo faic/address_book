@@ -1,6 +1,15 @@
 # address_book
 Address Book api that uses django rest framework & sqllite
 
+Functionality
+
+1. User is able to create a new address
+	○  User will not be able to add a duplicated address to their account
+2. User is able to retrieve all their postal addresses
+	○  Pagination functionality (default page size = 20)
+3. User is able to update existing addresses
+4. User is able to delete one address
+
 ## Setup Instructions:
 
 ### Clone repository:
